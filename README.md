@@ -32,53 +32,44 @@ It integrates financial theory with cutting-edge data science techniques to gene
 
 The output below reflects the results obtained from training the model from 2015-05-27 to 2020-05-27 and backtesting from 2020-05-27 to 2025-09-29.
 ---------- **Expected Annual Returns used by Each Technique** ---------
-Ticker	Historical (for MVO)	Black-Litterman	Machine Learning
-BHARTIARTL.NS	9.27%	6.84%	-90.00%
-HDFCBANK.NS	11.84%	6.27%	300.00%
-HINDUNILVR.NS	20.65%	5.28%	-39.51%
-ICICIBANK.NS	1.65%	11.22%	253.81%
-INFY.NS	9.75%	8.34%	-90.00%
-ITC.NS	-0.44%	10.66%	300.00%
-LT.NS	-3.86%	8.10%	300.00%
-RELIANCE.NS	28.18%	10.62%	-75.11%
-SBIN.NS	-11.27%	6.41%	132.31%
-TCS.NS	10.50%	6.73%	-90.00%
+| Ticker | Historical (for MVO) | Black-Litterman | Machine Learning |
+| :--- | :--- | :--- | :--- |
+| BHARTIARTL.NS | 9.27% | 6.84% | -90.00% |
+| HDFCBANK.NS | 11.84% | 6.27% | **300.00%** |
+| HINDUNILVR.NS | 20.65% | 5.28% | -39.51% |
+| ICICIBANK.NS | 1.65% | 11.22% | **253.81%** |
+| INFY.NS | 9.75% | 8.34% | -90.00% |
+| ITC.NS | -0.44% | 10.66% | **300.00%** |
+| LT.NS | -3.86% | 8.10% | **300.00%** |
+| RELIANCE.NS | **28.18%** | 10.62% | -75.11% |
+| SBIN.NS | -11.27% | 6.41% | 132.31% |
+| TCS.NS | 10.50% | 6.73% | -90.00% |
 
 
 -------- **Final Portfolio Allocation Percentages** ---------
-              Unoptimized    MVO Max-Sharpe   Black-Litterman   ML Max-Sharpe
-RELIANCE.NS        10.00%         44.05%           5.29%         0.00%
-TCS.NS             10.00%          6.43%           6.19%         0.00%
-HDFCBANK.NS        10.00%          0.00%          10.96%        60.88%
-ICICIBANK.NS       10.00%          0.00%           9.68%         0.00%
-BHARTIARTL.NS      10.00%          0.00%          20.13%         0.00%
-SBIN.NS            10.00%          0.00%           5.27%         0.00%
-INFY.NS            10.00%          0.00%          11.88%         0.00%
-LT.NS              10.00%          0.00%           6.25%        24.75%
-ITC.NS             10.00%          0.00%           8.36%        14.37%
-HINDUNILVR.NS      10.00%         49.51%          16.00%         0.00%
+### 2. Final Portfolio Allocation Percentages
+| Ticker | Unoptimized | MVO Max-Sharpe | Black-Litterman | ML Max-Sharpe |
+| :--- | :--- | :--- | :--- | :--- |
+| RELIANCE.NS | 10.00% | **44.05%** | 5.29% | 0.00% |
+| TCS.NS | 10.00% | 6.43% | 6.19% | 0.00% |
+| HDFCBANK.NS | 10.00% | 0.00% | 10.96% | **60.88%** |
+| ICICIBANK.NS | 10.00% | 0.00% | 9.68% | 0.00% |
+| BHARTIARTL.NS | 10.00% | 0.00% | **20.13%** | 0.00% |
+| SBIN.NS | 10.00% | 0.00% | 5.27% | 0.00% |
+| INFY.NS | 10.00% | 0.00% | 11.88% | 0.00% |
+| LT.NS | 10.00% | 0.00% | 6.25% | **24.75%** |
+| ITC.NS | 10.00% | 0.00% | 8.36% | **14.37%** |
+| HINDUNILVR.NS | 10.00% | **49.51%** | 16.00% | 0.00% |
 
 --- **Final Performance Metrics** ---
-
-ML Max-Sharpe Portfolio:
-  Final Cumulative Return: 191.33%
-  Sharpe Ratio: 0.98
-
-Black-Litterman Portfolio:
-  Final Cumulative Return: 192.48%
-  Sharpe Ratio: 1.25
-
-MVO Max-Sharpe Portfolio:
-  Final Cumulative Return: 77.51%
-  Sharpe Ratio: 0.50
-
-Market Index (Nifty 50):
-  Final Cumulative Return: 164.68%
-  Sharpe Ratio: 1.07
-
-Original Unoptimized Portfolio:
-  Final Cumulative Return: 205.82%
-  Sharpe Ratio: 1.28
+### Backtesting Performance Metrics (2020-2025)
+| Strategy | Final Cumulative Return | Sharpe Ratio |
+| :--- | :--- | :--- |
+| **Original Unoptimized** | **205.82%** | **1.28** |
+| **Black-Litterman Portfolio** | 192.48% | 1.25 |
+| **ML Max-Sharpe Portfolio** | 191.33% | 0.98 |
+| **Market Index (Nifty 50)** | 164.68% | 1.07 |
+| **MVO Max-Sharpe Portfolio** | 77.51% | 0.50 |
 
 <img width="1789" height="989" alt="download" src="https://github.com/user-attachments/assets/a33b4433-0b39-4c48-a5ec-e5773089ec5e" />
 
