@@ -34,15 +34,25 @@ The output below reflects the results obtained from training the model from 2015
 ---------- **Expected Annual Returns used by Each Technique** ---------
                     Historical (for MVO)  Black-Litterman   Machine Learning
 BHARTIARTL.NS                9.27%           6.84%          -90.00%
+
 HDFCBANK.NS                 11.84%           6.27%          300.00%
+
 HINDUNILVR.NS               20.65%           5.28%          -39.51%
+
 ICICIBANK.NS                 1.65%          11.22%          253.81%
+
 INFY.NS                      9.75%           8.34%          -90.00%
+
 ITC.NS                      -0.44%          10.66%          300.00%
+
 LT.NS                       -3.86%           8.10%          300.00%
+
 RELIANCE.NS                 28.18%          10.62%          -75.11%
+
 SBIN.NS                    -11.27%           6.41%          132.31%
+
 TCS.NS                      10.50%           6.73%          -90.00%
+
 
 
 -------- **Final Portfolio Allocation Percentages** ---------
