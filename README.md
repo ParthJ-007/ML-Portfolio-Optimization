@@ -31,6 +31,7 @@ It integrates financial theory with cutting-edge data science techniques to gene
 ## Sample Output
 
 The output below reflects the results obtained from training the model from 2015-05-27 to 2020-05-27 and backtesting from 2020-05-27 to 2025-09-29.
+
 ---------- **Expected Annual Returns used by Each Technique** ---------
 | Ticker | Historical (for MVO) | Black-Litterman | Machine Learning |
 | :--- | :--- | :--- | :--- |
@@ -47,7 +48,6 @@ The output below reflects the results obtained from training the model from 2015
 
 
 -------- **Final Portfolio Allocation Percentages** ---------
-### 2. Final Portfolio Allocation Percentages
 | Ticker | Unoptimized | MVO Max-Sharpe | Black-Litterman | ML Max-Sharpe |
 | :--- | :--- | :--- | :--- | :--- |
 | RELIANCE.NS | 10.00% | **44.05%** | 5.29% | 0.00% |
@@ -62,7 +62,6 @@ The output below reflects the results obtained from training the model from 2015
 | HINDUNILVR.NS | 10.00% | **49.51%** | 16.00% | 0.00% |
 
 --- **Final Performance Metrics** ---
-### Backtesting Performance Metrics (2020-2025)
 | Strategy | Final Cumulative Return | Sharpe Ratio |
 | :--- | :--- | :--- |
 | **Original Unoptimized** | **205.82%** | **1.28** |
