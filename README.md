@@ -1,6 +1,6 @@
 # ML-Portfolio-Optimization
 
-## Project Overview
+Project Overview
 
 This project implements a sophisticated framework for **quantitative portfolio optimization**, comparing traditional **Mean-Variance Optimization (MVO)** against two advanced methodologies: the **Black-Litterman Model** and an **MVO enhanced with Machine Learning (ML) forecasts**.
 
