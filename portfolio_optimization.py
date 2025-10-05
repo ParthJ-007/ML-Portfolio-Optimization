@@ -2,6 +2,7 @@
 """Portfolio Optimization
 # **Install and Import Libraries**
 """
+"""Project"""
 
 pip install PyPortfolioOpt
 
@@ -18,6 +19,7 @@ from sklearn.metrics import mean_squared_error
 from pypfopt import EfficientFrontier, risk_models, expected_returns
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
+
 
 """# **Portfolio Statistics Functions**
 **Sharpe Ratio** measures the excess return per unit of total volatility, assessing if returns adequately compensate for all risk taken.
