@@ -8,7 +8,7 @@ It integrates financial theory with cutting-edge data science techniques to gene
 
 ## Features
 
-- **Data Acquisition:** Uses the `yfinance` library to fetch historical price data for a basket of **Nifty 50 stocks** and the **^NSEI** market index.
+- **Data Acquisition:** Uses the `yfinance` library to fetch historical price data for a basket of **Nifty 50 stocks** and the **^NSE India** market index.
 - **Multiple Optimization Strategies:**
     - **Mean-Variance Optimization (MVO):** Classic portfolio optimization using historical returns and covariance.
     - **Black-Litterman Model:** Adjusts market equilibrium returns based on structured investor views.
